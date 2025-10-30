@@ -1,3 +1,106 @@
+# 📹 Video Calling App
+
+A real-time video calling application built with **React.js** and **ZegoCloud API**.  
+This project demonstrates how to integrate cloud-based video calling features into a web app.
+
+---
+
+## 🚀 Features
+- 🔹 One-to-one video calling
+- 🔹 Group video calling
+- 🔹 Real-time audio & video streaming
+- 🔹 User-friendly interface
+- 🔹 Powered by **ZegoCloud API**
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React.js, HTML, CSS, JavaScript
+- **API/SDK:** ZegoCloud API
+- **Other:** WebRTC (via ZegoCloud), Node.js (if backend used)
+
+---
+
+## 📂 Project Structure
+📦 video-calling-app
+┣ 📂 public
+┃ ┣ 📜 index.html
+┃ ┣ 📜 favicon.ico
+┃ ┣ 📜 manifest.json
+┃ ┣ 📜 robots.txt
+┃ ┗ 📂 static
+┣ 📂 src
+┃ ┣ 📜 App.js
+┃ ┣ 📜 index.js
+┃ ┣ 📜 components/...
+┃ ┗ 📜 styles/...
+┣ 📜 package.json
+┣ 📜 README.md
+
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/video-calling-app.git
+   cd video-calling-app
+
+
+Install dependencies
+
+npm install
+
+
+Add ZegoCloud API keys
+
+Create a .env file in the project root
+
+Add your Zego credentials:
+
+REACT_APP_ZEGO_APP_ID=your_app_id
+REACT_APP_ZEGO_SERVER_SECRET=your_server_secret
+
+
+Run the app
+
+npm start
+
+
+Open http://localhost:3000 in your browser.
+
+📸 Screenshots
+
+<img width="1683" height="733" alt="Screenshot 2025-08-26 000157" src="https://github.com/user-attachments/assets/d0c8d599-0c5e-4ec8-8eee-259093132451" />
+
+
+🔮 Future Improvements
+
+Screen sharing feature
+
+Chat during calls
+
+Recording functionality
+
+Better UI/UX design
+
+🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss.
+
+📜 License
+
+This project is licensed under the MIT License.
+
+🙌 Acknowledgements
+
+ZegoCloud API
+
+React.js community
+
+
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
